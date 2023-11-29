@@ -2,6 +2,7 @@ package club.someoneice.moddingsource.init;
 
 import club.someoneice.moddingsource.ExampleMain;
 import club.someoneice.moddingsource.item.ItemExample;
+import club.someoneice.moddingsource.item.ItemExampleFood;
 import com.google.common.collect.Maps;
 import cpw.mods.fml.common.registry.GameRegistry;
 import net.minecraft.item.Item;
@@ -10,6 +11,7 @@ import java.util.Map;
 
 public class ItemInit {
     public static final Item ITEM_EXAMPLE = new ItemExample();
+    public static final Item ITEM_EXAMPLE_FOOD = new ItemExampleFood(5, 0.5f, false, true);
 
 
     /* 其他注册，暂不使用 */
